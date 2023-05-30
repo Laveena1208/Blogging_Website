@@ -39,7 +39,6 @@ Route::middleware('auth')->group(function () {
         })->name('dashboard');
         Route::resource('categories', CategoriesController ::class)->except(['show']);
         Route::resource('tags', TagsController ::class)->except(['show']);
-
         Route::get('/blogs/trashed', [BlogsController ::class, 'trashed'])->name('blogs.trashed');
         Route::resource('blogs', BlogsController ::class);
         Route::delete('/blogs/{blog}/trash', [BlogsController ::class, 'trash'])->name('blogs.trash');

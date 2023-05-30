@@ -1,4 +1,4 @@
-<!-- Navigation Area===================================== -->
+<!-- Navigation Area    ===================================== -->
 <nav class="navbar navbar-pasific navbar-mp megamenu navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">

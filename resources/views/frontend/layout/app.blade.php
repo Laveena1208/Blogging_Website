@@ -78,7 +78,7 @@
 
             <!-- Blog Sidebar
             ===================================== -->
-            @include('frontend.layout._sidebar')
+            {{-- @include('frontend.layout._sidebar') --}}
 
         </div>
 
